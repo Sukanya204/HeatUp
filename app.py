@@ -32,5 +32,6 @@ def main():
             except Exception as e:
                 st.error(f"🚨 Error in prediction: {str(e)}")
 
+
 if __name__ == '__main__':
     main()
