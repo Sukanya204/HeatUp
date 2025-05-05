@@ -4,9 +4,9 @@ HeatUp is a lightweight web application designed to estimate the number of calor
 
 ## Features
 
-- User-Friendly Interface: Simple and intuitive design for easy navigation.
-- Calorie Estimation: Predicts calories burned based on user inputs.
-- Interactive Notebook: Includes a Jupyter Notebook (Calorie.ipynb) for data exploration and model insights.
+✅ User-Friendly Interface: Simple and intuitive design for easy navigation.  
+✅Calorie Estimation: Predicts calories burned based on user inputs.  
+✅ Interactive Notebook: Includes `Calorie.ipynb` (Jupyter Notebook) for data exploration and model insights.    
 
 ## Installation
 
@@ -31,3 +31,6 @@ pip install -r requirement.txt
 ```bash
 streamlit run app.py
 ```
+
+## Usage
+After launching the app, open the provided local URL in your browser (typically `http://localhost:8501`). Enter your details (e.g., weight, activity type, duration) to view calorie burn estimates.
