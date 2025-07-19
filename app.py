@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 import pickle
 
-calories = pickle.load(open('model.pkl', 'rb'))
+calories = pickle.load(open('./model.pkl', 'rb'))
 
 def predict_calorie_loss(gender_value, age, height, heart_rate, body_temp):
     prediction = calories.predict([[gender_value, age, height, heart_rate, body_temp]])
